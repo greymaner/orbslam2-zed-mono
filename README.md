@@ -1,9 +1,9 @@
-对orbslam2重载地图和重定位的再修改
-1.修改了重载地图时候，keyframe会指向空指针的逻辑问题。
-2.新添了zed双目的代码。
-3.后期可能会和加入飞控通讯代码。
+对orbslam2重载地图和重定位的再修改     
+1.修改了重载地图时候，keyframe会指向空指针的逻辑问题。    
+2.新添了zed双目的代码。     
+3.后期可能会和加入飞控通讯代码。    
 
-requirements
+requirements   
 1.pangolin  
 2.opencv  
 3.eigen3  
