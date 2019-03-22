@@ -111,9 +111,9 @@ int main(int argc, char **argv)
     // Save map
     SLAM.SaveMap("Slam_latest_Map.bin");
     // Save camera trajectory
-//    SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory_TUM_Format.txt");
+   SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory_TUM_Format.txt");
 //    SLAM.SaveTrajectoryTUM("FrameTrajectory_TUM_Format.txt");
-    SLAM.SaveTrajectoryKITTI("FrameTrajectory_KITTI_Format.txt");
+    // SLAM.SaveTrajectoryKITTI("FrameTrajectory_KITTI_Format.txt");
     // Stop all threads
 
     ros::shutdown();
