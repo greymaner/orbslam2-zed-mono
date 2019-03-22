@@ -32,4 +32,4 @@ ps : 记得修改Slam_latest_Map.bin的名称为Slam_Map.bin
 Mono: roslaunch usb_cam usb_cam-test.launch
       rosrun ROB_SLAM2 Mono ORBvoc.bin (相机文件）0
       rosrun ROB_SLAM2 Mono ORBvoc.bin (相机文件）true
-      
+ps:同理
