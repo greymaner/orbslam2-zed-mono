@@ -1,3 +1,4 @@
+（此项目暂时不更新，去搞guidance了，传送门：https://github.com/greymaner/orbslam2-guidance_with_imu.git 
 对orbslam2重载地图和重定位的再修改     
 1.修改了重载地图时候，keyframe会指向空指针的逻辑问题。    
 2.新添了zed双目的代码。     
